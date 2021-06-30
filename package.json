@@ -5,8 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:producer": "node producer/index.js",
-    "start:consumer": "node consumer/index.js"
+    "start:consumer": "node consumer/index.js",
+    "start:producer": "node src/producer.js",
+    "start:producer-stream": "node producer-stream/index.js"
   },
   "author": "",
   "license": "ISC",
